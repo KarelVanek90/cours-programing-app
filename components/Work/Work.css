@@ -1,0 +1,36 @@
+.form-work {
+  width: 650px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.form-work > form > input {
+  margin: 8px 5px;
+  padding: 4px 12px;
+}
+.form-work > button {
+  padding: 6px 15px;
+  margin: 8px 2px;
+  border: none;
+  background-color: rgba(34, 13, 226, 0.493);
+  color: white;
+  border-radius: 8px;
+}
+.form-work > button:hover {
+  cursor: pointer;
+  background-color: rgba(34, 13, 226, 0.671);
+  box-shadow: 1px 1px 5px 2px rgb(105, 13, 226);
+}
+.form-work > button.active {
+  background-color: red;
+}
+
+.form-work > button.deactive {
+  background-color: green;
+}
+
+.form-work > button.false {
+  cursor: auto;
+  background-color: rgba(255, 0, 0, 0.26);
+  box-shadow: none;
+}

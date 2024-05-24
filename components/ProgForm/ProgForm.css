@@ -1,0 +1,33 @@
+.prog-form {
+  width: 650px;
+  margin: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.prog-form > form > input,
+.prog-form > form > select {
+  margin: 8px 2px;
+  padding: 4px 12px;
+}
+.prog-form > button {
+  padding: 6px 15px;
+  margin: 8px 2px;
+  border: none;
+  background-color: rgba(34, 13, 226, 0.493);
+  color: white;
+  border-radius: 8px;
+}
+.prog-form > button:hover {
+  cursor: pointer;
+  background-color: rgba(34, 13, 226, 0.671);
+  box-shadow: 1px 1px 5px 2px rgb(105, 13, 226);
+}
+.prog-form > button.des {
+  background-color: rgba(34, 13, 226, 0.178);
+}
+.prog-form > button.des:hover {
+  cursor: auto;
+  background-color: rgba(34, 13, 226, 0.178);
+  box-shadow: none;
+}

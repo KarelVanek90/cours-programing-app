@@ -1,0 +1,22 @@
+.buttons > button {
+  text-align: center;
+  padding: 15px 70px;
+  margin: 30px 25px;
+  width: 300px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(51, 29, 250, 0.671);
+  color: white;
+  font-size: 20px;
+}
+.buttons > button:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 5px 2px rgb(105, 13, 226);
+  background-color: rgba(34, 13, 226, 0.671);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
